@@ -56,7 +56,7 @@
                         <h1 class="fw-bolder animate__animated animate__rollIn animate__delay-2s" style="font-weight: 48px; line-height: 70px; width: 405px;">on <b style="color: #21B573;">any schedule</b> </h1>
                         <p style="color: #6C6B6B;;">Lorem ipsum dolor sit amet, consectetur <br>
                             adipiscing elit. Varius blandit facilisis quam netus</p>
-                        <button class="btn btn-primary" style="background-color: #21B573; border-radius: 33px; position: absolute; width: 153px; height: 43px;">
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#tglModal" style="background-color: #21B573; border-radius: 33px; position: absolute; width: 153px; height: 43px;">
                             Get Started
                         </button>
                     </div>
@@ -142,6 +142,41 @@
         </td>
       </tr>
     </table>
+  </div>
+</div>
+
+<!------------Modal----------->
+<div class="modal fade" id="tglModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content" >
+      <div class="modal-header" style="background-color: rgb(247, 208, 158);">
+        <h5 class="modal-title" id="exampleModalLabel">You Can Start Here</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="background-color: blanchedalmond;">
+        <img src="img/Photos/Morder psyc.png" style="width: 200px; height: 150px;" alt="">
+        <h1>We can learn:</h1>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>JAVA Script</li>
+        </ul>
+        <table>
+          <tr>
+            <td>Type Here:</td>
+        <td>
+          <input type="text" name="name">
+        </td>
+          </tr>
+          <tr>
+            <td>
+              <input style="background-color: rgb(106, 106, 233);" type="submit" name="submit" value="Submit">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </div>
 </div>
 
