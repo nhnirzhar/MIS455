@@ -32,7 +32,7 @@
                         <a class="nav-link" href="#">Blog</a>
                       </li>
                       <li class="nav-item">
-                        <button style="border-radius: 33px; background-color: #21B573;">
+                        <button data-bs-toggle="offcanvas" data-bs-target="#offcvs" style="border-radius: 33px; background-color: #21B573;">
                             Sign Up
                         </button>
                       </li>
@@ -113,7 +113,36 @@
         </div>
     </main>
 
-
+<!--------------OFF CANVAS---------------->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcvs" aria-labelledby="offcanvasRightLabel" style="background-color: antiquewhite;">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Hello Guys!</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <img src="img/Photos/Morder pychons.png" style="width: 350px; height: 300px;" alt="">
+    <h3 style="text-align: center;">Sign Up</h3>
+    <table>
+      <tr>
+        <td>User Name:</td>
+        <td>
+          <input type="text" name="user">
+        </td>
+      </tr>
+      <tr>
+        <td>Password:</td>
+        <td>
+          <input type="password" name="user_pass">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input style="background-color: rgb(106, 106, 233); text-align: center;" type="submit" name="submit" value="Sign Up">
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
